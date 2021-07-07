@@ -45,14 +45,6 @@ if(isset($_POST['register_btn']))
 <?php include 'partials/header.php';?>
 
 <div class="container">
-  <hgroup>
-    <h1 class="site-title" style="text-align: center; color: green;">Login, Registration, Logout</h1><br>
-  </hgroup>
-
-<br>
-<?php include 'partials/navigation.php';?>
-
-
 <main class="main-content">
 
  <div class="col-md-6 col-md-offset-2">
@@ -92,6 +84,10 @@ if(isset($_POST['register_btn']))
 </div>
 
 </main>
+<?php include 'partials/navigation.php';?>
+
+
+
 </div>
 
 <?php include 'partials/footer.php';?>

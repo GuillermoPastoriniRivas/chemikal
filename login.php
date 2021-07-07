@@ -34,22 +34,11 @@ if($db)
   }
 }
 ?>
-
 <?php include 'partials/header.php';?>
 
 <div class="container">
-  <hgroup>
-    <h1 class="site-title" style="text-align: center; color: green;">Login, Registration, Logout</h1><br>
-  </hgroup>
-
-<br>
-
-<?php include 'partials/navigation.php';?>
-
-<main class="main-content">
- <div class="col-md-6 col-md-offset-2">
+  
 <?php
-print_r($_SESSION);
     if(isset($_SESSION['message']))
     {
       
@@ -72,8 +61,14 @@ print_r($_SESSION);
            <td><input type="submit" name="login_btn" class="Log In"></td>
      </tr>
  
-</table>
+  </table>
 </form>
+<?php include 'partials/navigation.php';?>
+
+<main class="main-content">
+ <div class="col-md-6 col-md-offset-2">
+
+
 </div>
 
 </main>

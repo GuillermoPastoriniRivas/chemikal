@@ -286,7 +286,7 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 0 25px;
-     color: #fff;
+     color: red;
      font-size: 16px;
      line-height: 20px;
 }
@@ -334,15 +334,15 @@ position: relative;
 .banner_main {
      padding: 40px 0 90px 0;
 }
-.banner_main::after {content: "";
+/* .banner_main::after {content: "";
  position: absolute;
-width: 297px;
-height: 370px;
  right: 0;
  top: 0;
+     width: 497px;
+     height: 370px;
  background: url(../images/midil.png);
  background-repeat: no-repeat;
-}
+} */
 .banner_main::before {content: "";
  position: absolute;
 width: 122px;

@@ -9,19 +9,9 @@ $db=mysqli_connect("localhost","root","","mysite");
 <?php include 'partials/header.php';?>
 
 
-<div>
-  <hgroup>
-    <h1>Login, Registration, Logout</h1><br>
-  </hgroup>
-
-<br>
-
-<?php include 'partials/navigation.php';?>
-
 <main class="container">
  <div class="col-md-6 col-md-offset-4">
 <?php
-print_r($_SESSION);
     if(isset($_SESSION['message']))
     {
          echo "<div id='error_msg'>".$_SESSION['message']."</div>";
@@ -34,6 +24,7 @@ print_r($_SESSION);
 </div>
 <a href="logout.php">Log Out</a>
 </div>
+<?php include 'partials/navigation.php';?>
 </main>
 </div>
 
