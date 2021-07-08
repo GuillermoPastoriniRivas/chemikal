@@ -367,7 +367,7 @@ height: 276px;
 }
 
 
-.text-bg a {
+.text-bg a, .estiloBotonRojo {
      font-size: 17px;
      background-color: #1d1c1d;
      color: #fff;
@@ -378,8 +378,11 @@ height: 276px;
      display: inline-block;
      transition: ease-in all 0.5s;
 }
-
-.text-bg a:hover {
+.btn:active, .btn:focus {
+     box-shadow: none !important;
+     outline:none !important;
+}
+.text-bg a:hover, .estiloBotonRojo:hover {
      background-color: #fe0131;
      color: #fff;
      transition: ease-in all 0.5s;

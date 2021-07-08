@@ -76,7 +76,7 @@ if(isset($_POST['register_btn']))
      </tr>
       <tr>
            <td></td>
-           <td><input type="submit" name="register_btn" class="Register"></td>
+           <td><input type="submit" name="register_btn" class="btn Register estiloBotonRojo"></td>
      </tr>
     </table>
 
