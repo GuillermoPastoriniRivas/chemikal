@@ -663,7 +663,13 @@ line-height: 50px;
 .footer a:hover {
      color: #fe0131;
 }
-
-
+body {
+     height: 100vh;
+}
+.centrado {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
 /** end footer **/
 

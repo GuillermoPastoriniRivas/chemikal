@@ -35,8 +35,9 @@ if($db)
 }
 ?>
 <?php include 'partials/header.php';?>
+<body class="main-layout centrado">
 
-<div class="container">
+<div class="centrado">
   
 <?php
     if(isset($_SESSION['message']))
@@ -63,15 +64,7 @@ if($db)
  
   </table>
 </form>
-<?php include 'partials/navigation.php';?>
 
-<main class="main-content">
- <div class="col-md-6 col-md-offset-2">
-
-
-</div>
-
-</main>
 </div>
 
 <?php include 'partials/footer.php';?>

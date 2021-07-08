@@ -20,6 +20,9 @@
                            </button>
                            <div class="collapse navbar-collapse" id="navbarsExample04">
                             <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.php">Welcome <?php echo ucfirst($_SESSION['username']) ; ?></a>
+                              </li>
                               <li class="nav-item">
                                 <a class="nav-link" href="login.php">LogIn</a>
                               </li>

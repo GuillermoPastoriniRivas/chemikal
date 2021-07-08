@@ -1,4 +1,11 @@
+<?php
+session_start();
 
+//connect to database // host,user,pass,bd
+$db=mysqli_connect("localhost","root","","mysite");
+
+
+?>
 
 <?php include "partials/header.php";?> 
       <!-- loader  -->
