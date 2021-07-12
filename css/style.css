@@ -285,10 +285,12 @@ button {
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
-     padding: 0 25px;
-     color: red;
-     font-size: 16px;
-     line-height: 20px;
+     padding: 2.5px 25px;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
@@ -564,7 +566,6 @@ line-height: 50px;
 }
 .talk {
      padding: 90px 0;
-     border-top: #000 solid 1px;
      margin-top: 90px;
 }
 
