@@ -291,6 +291,7 @@ button {
     line-height: 20px;
     font-weight: 600;
     letter-spacing: 1.5px;
+   
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
@@ -395,7 +396,8 @@ height: 276px;
 }
 
 .text-img figure img {
-     width: 100%;
+     width: 60%;
+     margin:0 auto 
 }
 
 .titlepage {

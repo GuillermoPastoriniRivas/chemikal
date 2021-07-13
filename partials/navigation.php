@@ -8,7 +8,7 @@
                         <div class="full">
                            <div class="center-desk">
                               <div class="logo">
-                                 <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                                 <a href="index.html"><img src="images/titulo.png" alt="#" /></a>
                               </div>
                            </div>
                         </div>
@@ -53,7 +53,7 @@
                   <div class="row">
                      <div class="col-md-10 offset-md-1">
                         <div class="text-img">
-                           <figure><img src="images/box_img.png" alt="#"/></figure>
+                           <figure><img src="images/logo.jpg" width="200" alt="#"/></figure>
                         </div>
                      </div>
                      <div class="col-md-12">
