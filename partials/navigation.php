@@ -47,17 +47,16 @@
                      </div>
                   </div>
                </div>
-            </div>
-            <!-- end header inner -->
-            <!-- end header -->
-            <!-- banner -->
+            </div>>
             <section class="banner_main">
                <div class="container">
                   <div class="row">
-                     <div class="col-md-10 offset-md-1">
+                     <div class="col-md-12">
                         <div class="text-img">
-                           <figure><img src="images/logo.jpg" width="200" alt="#"/></figure>
+                           <figure><img src="images/logo.jpg" alt="#"/></figure>
+                        
                         </div>
+
                      </div>
                      <div class="col-md-12">
                         <div class="text-bg">
