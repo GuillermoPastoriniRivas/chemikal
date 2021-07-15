@@ -676,6 +676,15 @@ body {
      display: flex;
      align-items: center;
      justify-content: center;
+     flex-direction: column;
 }
 /** end footer **/
 
+#error_msg {
+     margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.centrado td {
+     white-space: nowrap;
+}

@@ -23,15 +23,18 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="index.php">Welcome <?php echo ucfirst($_SESSION['username']) ; ?></a>
                               </li>
+                              <?php if(isset($_SESSION['username']) && $_SESSION['username'] !== "Invitado") : ?>
+                              <li class="nav-item">
+                                <a class="nav-link" href="logout.php">LogOut</a>
+                              </li>
+                              <?php else : ?>
                               <li class="nav-item">
                                 <a class="nav-link" href="login.php">LogIn</a>
                               </li>
                               <li class="nav-item">
                                 <a class="nav-link" href="register.php">SignUp</a>
                               </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="logout.php">LogOut</a>
-                              </li>
+                              <?php endif ; ?>
                                  <!-- <li class="nav-item">
                                     <a class="nav-link" href="#contact">Nosotros</a>
                                  </li>

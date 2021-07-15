@@ -1,8 +1,8 @@
 <?php
 session_start();
-if(  isset($_SESSION['username']) )
+if(  isset($_SESSION['username']) && $_SESSION['username'] !== "Invitado")
 {
-  header("location:home.php");
+  header("location:index.php");
   die();
 }
 //connect to database
@@ -11,9 +11,9 @@ if($db)
 {
   if(isset($_POST['login_btn']))
   {
-      $username=mysqli_real_escape_string($db,$_POST['username']);
-      $password=mysqli_real_escape_string($db,$_POST['password']);
-      $password=md5($password); //Remember we hashed password before storing last time
+      $username=mysqli_real_escape_string($db,$_POST['username']); //Limpia caracteres del username
+      $password=mysqli_real_escape_string($db,$_POST['password']); //Limpia caracteres del password
+      $password=md5($password); //Encripta password
       $sql="SELECT * FROM users WHERE  username='$username' AND password='$password'";
       $result=mysqli_query($db,$sql);
       
@@ -24,7 +24,7 @@ if($db)
         {
             $_SESSION['message']="You are now Loggged In";
             $_SESSION['username']=$username;
-            header("location:home.php");
+            header("location:index.php");
         }
        else
        {
@@ -36,7 +36,6 @@ if($db)
 ?>
 <?php include 'partials/header.php';?>
 <body class="main-layout centrado">
-
 <div class="centrado">
   
 <?php
@@ -59,12 +58,12 @@ if($db)
      </tr>
       <tr>
            <td></td>
-           <td><input type="submit" name="login_btn" class="Log In"></td>
+           <td><input type="submit" name="login_btn" class="btn Log In estiloBotonRojo"></td>
      </tr>
  
   </table>
 </form>
-
+<a class="nav-link" href="register.php">SignUp</a>
 </div>
 
 <?php include 'partials/footer.php';?>

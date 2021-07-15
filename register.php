@@ -43,8 +43,8 @@ if(isset($_POST['register_btn']))
 ?>
 
 <?php include 'partials/header.php';?>
-
-<div class="container">
+<body class="main-layout centrado">
+<div class="centrado">
 <main class="main-content">
 
  <div class="col-md-6 col-md-offset-2">
@@ -81,11 +81,11 @@ if(isset($_POST['register_btn']))
     </table>
 
 </form>
+
 </div>
 
 </main>
-<?php include 'partials/navigation.php';?>
-
+<a class="nav-link" href="login.php">LogIn</a>
 
 
 </div>

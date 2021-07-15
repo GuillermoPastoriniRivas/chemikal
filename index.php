@@ -1,6 +1,11 @@
 <?php
 session_start();
 
+if(!isset($_SESSION['username'])){
+   $_SESSION['username'] = "Invitado";
+}
+
+
 //connect to database // host,user,pass,bd
 $db=mysqli_connect("localhost","root","","mysite");
 
