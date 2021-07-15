@@ -161,7 +161,7 @@ $db=mysqli_connect("localhost","root","","mysite");
                <div class="container">
                   <div class="row">
                      <div class="col-md-12">
-                        <p>Copyright 2019 All Right Reserved By <a href="https://html.design/"> Free  html Templates</a></p>
+                        <p>Copyright 2021 © Todos los Derechos Reservados | <a href="https://html.design/"> Chemikal Drinks</a></p>
                      </div>
                   </div>
                </div>

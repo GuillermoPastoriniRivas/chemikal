@@ -22,13 +22,12 @@ if($db)
      
         if( mysqli_num_rows($result)>=1)
         {
-            $_SESSION['message']="You are now Loggged In";
             $_SESSION['username']=$username;
             header("location:index.php");
         }
        else
        {
-              $_SESSION['message']="Username and Password combiation incorrect";
+              $_SESSION['message']="Usuario o contraseña incorrecta";
        }
       }
   }

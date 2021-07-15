@@ -21,18 +21,18 @@
                            <div class="collapse navbar-collapse" id="navbarsExample04">
                             <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.php">Welcome <?php echo ucfirst($_SESSION['username']) ; ?></a>
+                                <a class="nav-link" href="index.php">Bienvenido <?php echo ucfirst($_SESSION['username']) ; ?></a>
                               </li>
                               <?php if(isset($_SESSION['username']) && $_SESSION['username'] !== "Invitado") : ?>
                               <li class="nav-item">
-                                <a class="nav-link" href="logout.php">LogOut</a>
+                                <a class="nav-link" href="logout.php">Cerrar Sesión</a>
                               </li>
                               <?php else : ?>
                               <li class="nav-item">
-                                <a class="nav-link" href="login.php">LogIn</a>
+                                <a class="nav-link" href="login.php">Iniciar Sesión</a>
                               </li>
                               <li class="nav-item">
-                                <a class="nav-link" href="register.php">SignUp</a>
+                                <a class="nav-link" href="register.php">Crear Cuenta</a>
                               </li>
                               <?php endif ; ?>
                                  <!-- <li class="nav-item">
@@ -60,8 +60,8 @@
                      </div>
                      <div class="col-md-12">
                         <div class="text-bg">
-                           <h1>Spent the best time with best wine</h1>
-                           <a href="#">Read More</a>
+                           <h1>Su Bartender Cibernético </h1>
+                           <a href="#">Ver más</a>
                         </div>
                      </div>
                      
