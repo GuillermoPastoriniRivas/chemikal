@@ -6,29 +6,24 @@ if(!isset($_SESSION['username'])){
 }
 
 
-//connect to database // host,user,pass,bd
+//conexion con base de datos
 $db=mysqli_connect("localhost","root","","mysite");
 
 
 ?>
 
 <?php include "partials/header.php";?> 
-      <!-- loader  -->
       <div class="loader_bg">
          <div class="loader"><img src="images/loading.gif" alt="#" /></div>
       </div>
-      <!-- end loader -->
-      <!-- header -->
       <?php include "partials/navigation.php";?> 
-      <!-- end banner -->
-      <!-- store -->
       <div class="store">
          <div class="container">
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage">
-                     <h2>Best Wines <span class="red">In Our Store</span> </h2>
-                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+                     <h2>Las Mejores <span class="red">Recetas</span> </h2>
+                     <p>Compmartimos los conocimientos más útiles sobre las recetas de las bebidas alcoholicas más deliciosas contigo</p>
                   </div>
                </div>
             </div>
@@ -93,14 +88,12 @@ $db=mysqli_connect("localhost","root","","mysite");
             </div>
          </div>
       </div>
-      <!-- end store -->
-      <!-- about -->
       <div class="about">
          <div class="container">
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage">
-                     <h2>About <span class="red"> Store</span></h2>
+                     <h2>Sobre <span class="red"> Nosotros</span></h2>
                   </div>
                </div>
             </div>
@@ -108,7 +101,7 @@ $db=mysqli_connect("localhost","root","","mysite");
                   <div class="row">
                      <div class="col-md-12">
                         <div class="about_box ">
-                           <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of </p>
+                           <p>Somos un grupo de programadores que se tomó el trabajo de conseguir y agrupar las recetas de las bebidas alcoholicas más famosas y deliciosas del mundo, y las compartimos contigo para que las disfrutes junto con nosotros  </p>
                            <a class="read_more" href="#">Read more</a>
                         </div>
                     
@@ -154,14 +147,13 @@ $db=mysqli_connect("localhost","root","","mysite");
             </div>
          </div>
       </div>
-      <!-- end talk -->
       <!--  footer -->
             <footer>
          <div class="footer">
                <div class="container">
                   <div class="row">
                      <div class="col-md-12">
-                        <p>Copyright 2021 © Todos los Derechos Reservados | <a href="https://html.design/"> Chemikal Drinks</a></p>
+                        <p>Copyright 2019 All Right Reserved By <a href="https://html.design/"> Free  html Templates</a></p>
                      </div>
                   </div>
                </div>

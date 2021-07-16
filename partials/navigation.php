@@ -1,5 +1,4 @@
 <header>
-         <!-- header inner -->
          <div  class="head_top">
             <div class="header">
                <div class="container-fluid">
@@ -35,12 +34,7 @@
                                 <a class="nav-link" href="register.php">Crear Cuenta</a>
                               </li>
                               <?php endif ; ?>
-                                 <!-- <li class="nav-item">
-                                    <a class="nav-link" href="#contact">Nosotros</a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contacto</a>
-                                 </li> -->
+                               
                               </ul>
                            </div>
                         </nav>
@@ -61,7 +55,7 @@
                      <div class="col-md-12">
                         <div class="text-bg">
                            <h1>Su Bartender Cibernético </h1>
-                           <a href="#">Ver más</a>
+                          <h3>Te ayudamos a pasarla bien</h3>
                         </div>
                      </div>
                      
