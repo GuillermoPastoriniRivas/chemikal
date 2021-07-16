@@ -46,6 +46,7 @@ if($db)
     }
 ?>
 <form method="post" action="login.php">
+  
   <table>
      <tr>
            <td>Username : </td>
